@@ -125,6 +125,7 @@ public class CarServiceTest {
         CarDto carDto = carService.deleteCar(1);
         //then
         assertThat(carDto, notNullValue());
+
     }
 
 

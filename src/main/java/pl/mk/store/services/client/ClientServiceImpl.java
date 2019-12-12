@@ -2,6 +2,7 @@ package pl.mk.store.services.client;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
+import org.springframework.stereotype.Service;
 import pl.mk.store.dto.ClientDto;
 import pl.mk.store.exception.ClientExistsException;
 import pl.mk.store.exception.ClientNoExistsException;
@@ -13,6 +14,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+@Service
 public class ClientServiceImpl implements ClientService {
 
 
