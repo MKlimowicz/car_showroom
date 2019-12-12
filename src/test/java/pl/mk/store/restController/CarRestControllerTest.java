@@ -9,11 +9,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.ResultMatcher;
 import pl.mk.store.dto.CarDto;
 import pl.mk.store.importentMethod.CarFactory;
-import pl.mk.store.model.Car;
-import pl.mk.store.services.CarService;
+import pl.mk.store.services.car.CarService;
 
 import static org.hamcrest.Matchers.nullValue;
 import static org.mockito.ArgumentMatchers.isNull;

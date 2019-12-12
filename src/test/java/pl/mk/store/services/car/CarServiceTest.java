@@ -1,4 +1,4 @@
-package pl.mk.store.services;
+package pl.mk.store.services.car;
 
 
 import pl.mk.store.dto.CarDto;
@@ -29,6 +29,7 @@ import org.junit.Before;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import pl.mk.store.services.car.CarServiceImpl;
 
 public class CarServiceTest {
 

@@ -1,4 +1,4 @@
-package pl.mk.store.services;
+package pl.mk.store.services.car;
 
 import pl.mk.store.dto.CarDto;
 
